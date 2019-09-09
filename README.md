@@ -10,7 +10,8 @@ the microservice.
 Returns all users
 
 Response:
-``` {
+``` 
+{
   "status": "SUCCESS",
   "data": [
     {
@@ -33,7 +34,8 @@ Response:
 Adds a new user to the system
 
 Response:
-``` {
+```
+{
   "status": "SUCCESS"
 }
 ```
@@ -42,7 +44,8 @@ Response:
 Get a specific user by their ID
 
 Response:
-```{
+```
+{
   "status": "SUCCESS",
   "data":{
     "id": "3",
@@ -57,7 +60,8 @@ Response:
 Edit a specific user's properties
 
 Response:
-```{
+```
+{
   "status": "SUCCESS",
   "data":{
     "id": "3",
@@ -72,7 +76,8 @@ Response:
 Deletes a specific user's data
 
 Response:
-```{
+```
+{
   "status": "SUCCESS",
   "message": "user deleted"
 }
@@ -82,7 +87,8 @@ Response:
 Checks if a user with given ID exists
 
 Response:
-```{
+```
+{
   "status": "SUCCESS",
   "message": "user exists"
 }
