@@ -1,6 +1,9 @@
 # ExampleService
 An example of a microservice for an object called User
 
+Uses MongoDB/Morphia as an example of data persistence within
+the microservice.
+
 ## Endpoints
 
 ### /users [GET]

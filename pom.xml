@@ -29,11 +29,17 @@
         </dependency>
 
         <dependency>
-            <groupId>com.konghq</groupId>
-            <artifactId>unirest-java</artifactId>
-            <version>2.3.16</version>
-            <scope>provided</scope>
+            <groupId>dev.morphia.morphia</groupId>
+            <artifactId>core</artifactId>
+            <version>1.5.3</version>
         </dependency>
+
+<!--        <dependency>-->
+<!--            <groupId>com.konghq</groupId>-->
+<!--            <artifactId>unirest-java</artifactId>-->
+<!--            <version>2.3.16</version>-->
+<!--            <scope>provided</scope>-->
+<!--        </dependency>-->
 
         <dependency>
             <groupId>com.sparkjava</groupId>

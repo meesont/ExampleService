@@ -2,7 +2,7 @@ package io.github.meesont.rest;
 
 import com.google.gson.Gson;
 import io.github.meesont.user.User;
-import io.github.meesont.user.UserService;
+import io.github.meesont.UserService;
 import io.github.meesont.res.Response;
 import io.github.meesont.res.Status;
 import spark.Route;

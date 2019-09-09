@@ -1,6 +1,7 @@
-package io.github.meesont.user;
+package io.github.meesont;
 
 import io.github.meesont.exceptions.UserNotFoundException;
+import io.github.meesont.user.User;
 
 import java.util.Collection;
 

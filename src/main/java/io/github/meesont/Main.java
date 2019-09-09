@@ -1,15 +1,21 @@
 package io.github.meesont;
 
+import com.mongodb.MongoClient;
+import io.github.meesont.mongo.MongoProvider;
 import io.github.meesont.rest.Routes;
-import io.github.meesont.user.UserService;
-import io.github.meesont.user.UserServiceImpl;
 
 public class Main {
 
-    public static void main(String[] args) {
+    private MongoProvider service;
 
-        final UserService userService = new UserServiceImpl();
-        Routes.setup(userService);
+    public Main() {
+        MongoClient mongoClient = new MongoClient();
+        this.service = new MongoProvider(mongoClient, "users");
+        Routes.setup(service);
+    }
+
+    public static void main(String[] args) {
+        new Main();
     }
 
 }

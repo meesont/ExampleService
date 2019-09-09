@@ -1,6 +1,5 @@
 package io.github.meesont.user;
 
-
 public class User {
 
     private String forename;
