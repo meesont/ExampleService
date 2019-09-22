@@ -14,7 +14,7 @@ import java.util.Collection;
 
 public class MongoProvider implements UserService {
 
-    final Morphia morphia = new Morphia();
+    private final Morphia morphia = new Morphia();
     private MongoCollection<Document> usersCollection;
     private Datastore datastore;
 
